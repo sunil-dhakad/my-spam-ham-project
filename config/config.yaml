@@ -1,0 +1,11 @@
+artifacts_config:
+  artifact_dir: artifacts
+
+ingestion_config:
+  download_url: https://raw.githubusercontent.com/sunil-dhakad/data-folder/main/spam.csv
+  dataset_dir: data
+  raw_data_dir: raw_data
+  ingestion_df_modify_dir: ingestion_data_modified
+
+validation_config:
+  
