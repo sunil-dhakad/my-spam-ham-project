@@ -8,4 +8,26 @@ ingestion_config:
   ingestion_df_modify_dir: ingestion_data_modified
 
 validation_config:
-  
+  modified_data_folder: modified_data
+  object_dir: objects
+  spam_csv_file_dir: spam.csv
+
+
+transform_config:
+  balanced_data_folder: balanced_data
+  object_dir: objects
+  object_file_name: smote.pkl
+  y_target_csv: y_target.csv
+  xfeatures_bow_csv: xfeatures_bow.csv
+  xfeatures_tfidf_csv: xfeatures_tfidf.csv
+
+
+
+model_trainer_config:
+  train_data: train_set_bow
+  test_data: test_set_bow
+  trained_models: trained_models
+  model_file_name: model.pkl
+
+
+
