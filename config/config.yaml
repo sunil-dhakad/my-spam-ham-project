@@ -26,7 +26,7 @@ transform_config:
 model_trainer_config:
   train_data: train_set_bow
   test_data: test_set_bow
-  trained_models: trained_models
+  trained_models: artifacts/trained_models
   model_file_name: model.pkl
 
 

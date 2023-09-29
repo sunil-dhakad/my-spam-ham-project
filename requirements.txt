@@ -5,3 +5,6 @@ scikit-learn
 pyyaml
 requests
 nltk
+imblearn
+joblib
+requests
