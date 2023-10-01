@@ -29,12 +29,16 @@ class validationclass:
     def cleaning_data(self):
         try:
 
- #           raw_data_dir = self.ingestion_config.raw_data_dir
- #           file_name = os.listdir(raw_data_dir)[0]
- #           file_path = os.path.join(raw_data_dir,file_name)
+            raw_data_dir = self.ingestion_config.raw_data_dir
+            file_name = os.listdir(raw_data_dir)[0]
+            file_path = os.path.join(raw_data_dir,file_name)
 
-            dff = pd.read_csv(self.validn_config_fn_var.spam_csv_file_dir, sep="," encoding = "ISO-8859-1", usecols=[0,1], skiprows=1,names=["target", "msg"])
+            dff = pd.read_csv(file_path, encoding = "ISO-8859-1", usecols=[0,1], skiprows=1,names=["target", "msg"])
+            logging.info("reading data in validation file")
 
+
+ #           dff = pd.read_csv(self.validn_config_fn_var.spam_csv_file_dir, sep="," encoding = "ISO-8859-1", usecols=[0,1], skiprows=1,names=["target", "msg"])
+ #           logging.info("reading data in validation file")
             dff.drop_duplicates(inplace=True)
 
             dff['msg'] = dff['msg'].apply(lambda x:x.lower())
@@ -61,17 +65,26 @@ class validationclass:
             tfidf = TfidfVectorizer()
 
             xfeatures_bow = bow.fit_transform(dff['msg'])
+            xfeatures_bow=pd.DataFrame(xfeatures_bow)
             xfeatures_tfidf = tfidf.fit_transform(dff['msg'])
-
+            xfeatures_tfidf=pd.DataFrame(xfeatures_tfidf)
             y_target =dff['target']
+            y_target=pd.DataFrame(y_target)
 
 
             os.makedirs(self.validn_config_fn_var.modified_data_folder,exist_ok=True)
-            os.makedire(self.validn_config_fn_var.object_dir,exist_ok=True)
-            xfeatures_bow.to_csv(self.validn_config_fn_var.modified_data_folder,xfeatures_bow.csv,index=False)
-            xfeatures_tfidf.to_csv(self.validn_config_fn_var.modified_data_folder,xfeatures_tfidf.csv,index=False)
+            os.makedirs(self.validn_config_fn_var.object_dir,exist_ok=True)
 
-            y_target.to_csv(self.validn_config_fn_var.modified_data_folder,y_target.csv,index=False)
+            bow_csv_file_path = os.path.join(self.validn_config_fn_var.modified_data_folder, 'xfeatures_bow.csv')
+            xfeatures_bow.to_csv(bow_csv_file_path, index=False)
+
+
+ # this doesn't work #xfeatures_bow.to_csv(self.validn_config_fn_var.modified_data_folder,'xfeatures_bow.csv',index=False)
+            tfidf_csv_file_path = os.path.join(self.validn_config_fn_var.modified_data_folder,'xfeatures_tfidf.csv')
+            xfeatures_tfidf.to_csv(tfidf_csv_file_path,index=False)
+
+            y_csv_file_path = os.path.join(self.validn_config_fn_var.modified_data_folder,'y_target.csv')  
+            y_target.to_csv(y_csv_file_path,index=False)
 
 
             obj_file_name = os.path.join(self.validn_config_fn_var.object_dir)

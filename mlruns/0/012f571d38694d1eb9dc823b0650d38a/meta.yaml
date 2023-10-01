@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/0/012f571d38694d1eb9dc823b0650d38a/artifacts
+end_time: 1696064840842
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 012f571d38694d1eb9dc823b0650d38a
+run_name: invincible-mule-2
+run_uuid: 012f571d38694d1eb9dc823b0650d38a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696064840830
+status: 3
+tags: []
+user_id: ubuntu

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/0/b79df2478e4c46fcbef527a18df367cd/artifacts
+end_time: 1696071121283
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b79df2478e4c46fcbef527a18df367cd
+run_name: likeable-bug-222
+run_uuid: b79df2478e4c46fcbef527a18df367cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696071121269
+status: 3
+tags: []
+user_id: ubuntu

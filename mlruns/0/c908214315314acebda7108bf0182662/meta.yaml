@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/0/c908214315314acebda7108bf0182662/artifacts
+end_time: 1696064209550
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c908214315314acebda7108bf0182662
+run_name: flawless-colt-891
+run_uuid: c908214315314acebda7108bf0182662
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696064209537
+status: 3
+tags: []
+user_id: ubuntu

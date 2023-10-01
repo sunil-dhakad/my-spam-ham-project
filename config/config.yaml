@@ -4,22 +4,22 @@ artifacts_config:
 ingestion_config:
   download_url: https://raw.githubusercontent.com/sunil-dhakad/data-folder/main/spam.csv
   dataset_dir: data
-  raw_data_dir: raw_data
+  raw_data_dir: artifacts/raw_data
   ingestion_df_modify_dir: ingestion_data_modified
 
 validation_config:
-  modified_data_folder: modified_data
-  object_dir: objects
-  spam_csv_file_dir: spam.csv
+  modified_data_folder: artifacts/validation_modified_data
+  object_dir: validation_objects
+  spam_csv_file_dir: artifacts/validation_modified_data/spam.csv
 
 
 transform_config:
-  balanced_data_folder: balanced_data
-  object_dir: objects
+  balanced_data_folder: artifacts/balanced_data
+  object_dir: artifacts/model_object
   object_file_name: smote.pkl
-  y_target_csv: y_target.csv
-  xfeatures_bow_csv: xfeatures_bow.csv
-  xfeatures_tfidf_csv: xfeatures_tfidf.csv
+  y_target_csv: artifacts/validation_modified_data/y_target.csv
+  xfeatures_bow_csv: artifacts/validation_modified_data/xfeatures_bow.csv
+  xfeatures_tfidf_csv: artifacts/validation_modified_data/xfeatures_tfidf.csv
 
 
 

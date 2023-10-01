@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/0/0d97087e0a614fe2a85dd4423767a6a9/artifacts
+end_time: 1696065859036
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d97087e0a614fe2a85dd4423767a6a9
+run_name: intelligent-mink-385
+run_uuid: 0d97087e0a614fe2a85dd4423767a6a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696065859024
+status: 3
+tags: []
+user_id: ubuntu

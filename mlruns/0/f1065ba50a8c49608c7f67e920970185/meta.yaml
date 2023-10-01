@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/0/f1065ba50a8c49608c7f67e920970185/artifacts
+end_time: 1696063168184
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f1065ba50a8c49608c7f67e920970185
+run_name: fortunate-ox-124
+run_uuid: f1065ba50a8c49608c7f67e920970185
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696063168172
+status: 3
+tags: []
+user_id: ubuntu

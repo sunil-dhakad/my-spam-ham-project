@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/0/ec5aeb6b1ede44949acf55a3469d2c39/artifacts
+end_time: 1696076976280
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ec5aeb6b1ede44949acf55a3469d2c39
+run_name: casual-hound-726
+run_uuid: ec5aeb6b1ede44949acf55a3469d2c39
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696076976265
+status: 3
+tags: []
+user_id: ubuntu

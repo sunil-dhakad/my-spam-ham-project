@@ -8,7 +8,7 @@ import re
 from spamham.utils.utils import remove_stopwords
 from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
 import os,sys
- import joblib
+import joblib
 from spamham.utils.utils import tune_and_fit
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
@@ -16,6 +16,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.model_selection import GridSearchCV
 import mlflow
+import mlflow.sklearn
 
 
 
@@ -30,6 +31,8 @@ class Modeltrainerclass:
 
         except Exception as e:
             raise CustomException(e,sys) from e
+        
+    mlflow.set_experiment("scikit_learn_exp1")
     mlflow.sklearn.autolog()
     with mlflow.start_run():
             
@@ -82,10 +85,10 @@ class Modeltrainerclass:
                 return r2_score
             except Exception as e:
                 raise CustomException(e,sys) from e
+    mlflow.end_run()
 
 
-
-        def initiate_model_trainer(self):
+    def initiate_model_trainer(self):
             try:
                 train_set = pd.read_csv(self.model_trainer_config.train_data)
                 test_set =pd.read_csv(self.model_trainer_config.test_data)

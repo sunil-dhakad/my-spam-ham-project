@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/0/89b969b0118e4797b7ac3d349467a3ba/artifacts
+end_time: 1696067663592
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 89b969b0118e4797b7ac3d349467a3ba
+run_name: stylish-hog-427
+run_uuid: 89b969b0118e4797b7ac3d349467a3ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696067663578
+status: 3
+tags: []
+user_id: ubuntu

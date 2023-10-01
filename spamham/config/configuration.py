@@ -60,17 +60,16 @@ class Configuration:
             artifact_dir = self.config_info['artifacts_config']['artifact_dir']
 
 
-            modified_folder_var =os.path.join(artifact_dir,dataset_dir_var,validation_config_var['modified_data_folder'])
-            object_dir_var = os.path.join(artifact_dir,dataset_dir_var,validation_config_var['object_dir'])
+            modified_folder_var =os.path.join(validation_config_var['modified_data_folder'])
+            object_dir_var = os.path.join(artifact_dir,validation_config_var['object_dir'])
             
             
-            spam_file_name_var = validation_config_var['spam_csv_file_name']
-            spam_csv_file_dir = os.path.join(raw_data_dir,spam_file_name_var)
+            spam_csv_file_dir = validation_config_var['spam_csv_file_dir']
             
 
             validation_config_var = DataValidationConfig(modified_data_folder=modified_folder_var,
                                                             object_dir=object_dir_var,
-                                                            spam_csv_file_name=spam_csv_file_dir)
+                                                            spam_csv_file_dir=spam_csv_file_dir)
             
             return validation_config_var
 
@@ -94,9 +93,9 @@ class Configuration:
 
             artifact_dir = self.config_info['artifacts_config']['artifact_dir']
 
-            y_target_csv_path = os.path.join(artifact_dir,self.config_info['validation_config']['dataset_dir'],self.config_info['validation_config']['modified_data_folder'],y_target_csv_filename)
-            xfeatures_bow_csv_path = os.path.join(artifact_dir,self.config_info['validation_config']['dataset_dir'],self.config_info['validation_config']['modified_data_folder'],xfeatures_bow_csv_filename)
-            xfeatures_tfidf_csv_path = os.path.join(artifact_dir,self.config_info['validation_config']['dataset_dir'],self.config_info['validation_config']['modified_data_folder'],xfeatures_tfidf_csv_filename)
+            y_target_csv_path = os.path.join(y_target_csv_filename)
+            xfeatures_bow_csv_path = os.path.join(xfeatures_bow_csv_filename)
+            xfeatures_tfidf_csv_path = os.path.join(xfeatures_tfidf_csv_filename)
 
 
             result_config = DataTransformationConfig(balanced_data_folder=data_folder_var,

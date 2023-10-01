@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/0/4188a779ec3c407c84aeb15d5255c379/artifacts
+end_time: 1696068049652
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4188a779ec3c407c84aeb15d5255c379
+run_name: invincible-robin-709
+run_uuid: 4188a779ec3c407c84aeb15d5255c379
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696068049632
+status: 3
+tags: []
+user_id: ubuntu

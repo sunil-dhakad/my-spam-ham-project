@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/0/a12bf8e2c486438f9d24837a4352ae04/artifacts
+end_time: 1696065170895
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a12bf8e2c486438f9d24837a4352ae04
+run_name: silent-loon-460
+run_uuid: a12bf8e2c486438f9d24837a4352ae04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696065170882
+status: 3
+tags: []
+user_id: ubuntu

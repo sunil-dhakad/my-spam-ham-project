@@ -15,6 +15,7 @@ import joblib
 import os,sys
 from imblearn.over_sampling import SMOTE
 from sklearn.model_selection import train_test_split
+from scipy.sparse import csr_matrix
 
 
 class Transformationclass:
@@ -31,10 +32,12 @@ class Transformationclass:
             try:
 
 
-                target =pd.read_csv(yfile_path,index=False)
-                xfeature_bow = pd.read_csv(xfile_bow_path,index=False)
-                xfeature_tfidf = pd.read_csv(xfile_tfidf_path,index=False)
+                target =pd.read_csv(yfile_path,index_col=None)
+                xfeature_bow = pd.read_csv(xfile_bow_path,index_col=None)
+                xfeature_tfidf = pd.read_csv(xfile_tfidf_path,index_col=None)
 
+
+                xfeature_bow=xfeature_bow.apply(lambda x: re.sub('[\t1\n ]','',x))
 
 
 
@@ -44,9 +47,9 @@ class Transformationclass:
 
                 smote = SMOTE(sampling_strategy=sampling_strategy, random_state=random_state, k_neighbors=k_neighbors)
 
-                xbow, ybow = smote.fit_resample(xfeature_bow,target)
+                xbow, ybow = smote.fit_resample(xfeature_bow.values,target.values)
 
-                xtfidf, ybow = smote.fit_resample(xfeature_tfidf,target)
+                xtfidf, ybow = smote.fit_resample(xfeature_tfidf.values,target.values)
 
                 
                 

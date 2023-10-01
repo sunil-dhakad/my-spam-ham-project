@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/0/ce2246be3fcc4ddb8559cecbe5bd9842/artifacts
+end_time: 1696076395700
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce2246be3fcc4ddb8559cecbe5bd9842
+run_name: intelligent-lamb-666
+run_uuid: ce2246be3fcc4ddb8559cecbe5bd9842
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696076395689
+status: 3
+tags: []
+user_id: ubuntu

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/0/4d0a6c38ee55435fb645c99d240e4132/artifacts
+end_time: 1696095932901
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4d0a6c38ee55435fb645c99d240e4132
+run_name: popular-moose-10
+run_uuid: 4d0a6c38ee55435fb645c99d240e4132
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696095932885
+status: 3
+tags: []
+user_id: ubuntu

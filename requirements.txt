@@ -5,6 +5,6 @@ scikit-learn
 pyyaml
 requests
 nltk
-imblearn
+imbalanced-learn
 joblib
 requests

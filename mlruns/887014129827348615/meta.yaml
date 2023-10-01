@@ -1,0 +1,6 @@
+artifact_location: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/887014129827348615
+creation_time: 1696130436152
+experiment_id: '887014129827348615'
+last_update_time: 1696130436152
+lifecycle_stage: active
+name: scikit_learn_exp1

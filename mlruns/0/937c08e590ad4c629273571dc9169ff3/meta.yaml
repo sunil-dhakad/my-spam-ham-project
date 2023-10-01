@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/0/937c08e590ad4c629273571dc9169ff3/artifacts
+end_time: 1696076786059
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 937c08e590ad4c629273571dc9169ff3
+run_name: shivering-chimp-639
+run_uuid: 937c08e590ad4c629273571dc9169ff3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696076786047
+status: 3
+tags: []
+user_id: ubuntu

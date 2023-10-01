@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/0/92fc2b28564b425ead3d35724419cd96/artifacts
+end_time: 1696074624701
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 92fc2b28564b425ead3d35724419cd96
+run_name: amazing-horse-185
+run_uuid: 92fc2b28564b425ead3d35724419cd96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696074624679
+status: 3
+tags: []
+user_id: ubuntu

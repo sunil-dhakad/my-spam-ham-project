@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/0/813550bbe8f24ee59c9ded30430048df/artifacts
+end_time: 1696062935411
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 813550bbe8f24ee59c9ded30430048df
+run_name: sassy-fox-479
+run_uuid: 813550bbe8f24ee59c9ded30430048df
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696062935396
+status: 3
+tags: []
+user_id: ubuntu

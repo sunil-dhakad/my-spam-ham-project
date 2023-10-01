@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/0/12d13ccc08d2439eade6dc1fa7db7cd4/artifacts
+end_time: 1696070482092
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 12d13ccc08d2439eade6dc1fa7db7cd4
+run_name: clean-lamb-513
+run_uuid: 12d13ccc08d2439eade6dc1fa7db7cd4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696070482080
+status: 3
+tags: []
+user_id: ubuntu
