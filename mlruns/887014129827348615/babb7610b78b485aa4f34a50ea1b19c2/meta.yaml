@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/887014129827348615/babb7610b78b485aa4f34a50ea1b19c2/artifacts
+end_time: 1696156588887
+entry_point_name: ''
+experiment_id: '887014129827348615'
+lifecycle_stage: active
+run_id: babb7610b78b485aa4f34a50ea1b19c2
+run_name: skittish-moose-730
+run_uuid: babb7610b78b485aa4f34a50ea1b19c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696156588872
+status: 3
+tags: []
+user_id: ubuntu

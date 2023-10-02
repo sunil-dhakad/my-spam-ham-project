@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/887014129827348615/a2f4226db70e457aa80c0920da65cc29/artifacts
+end_time: 1696155803020
+entry_point_name: ''
+experiment_id: '887014129827348615'
+lifecycle_stage: active
+run_id: a2f4226db70e457aa80c0920da65cc29
+run_name: gaudy-trout-789
+run_uuid: a2f4226db70e457aa80c0920da65cc29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696155803008
+status: 3
+tags: []
+user_id: ubuntu

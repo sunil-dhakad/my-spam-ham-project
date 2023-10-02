@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/887014129827348615/6bae5ce8159046f5bb048fdd43c762a2/artifacts
+end_time: 1696162248132
+entry_point_name: ''
+experiment_id: '887014129827348615'
+lifecycle_stage: active
+run_id: 6bae5ce8159046f5bb048fdd43c762a2
+run_name: wistful-cod-426
+run_uuid: 6bae5ce8159046f5bb048fdd43c762a2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696162248110
+status: 3
+tags: []
+user_id: ubuntu

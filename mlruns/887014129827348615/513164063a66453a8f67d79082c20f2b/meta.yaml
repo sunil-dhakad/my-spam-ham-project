@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/887014129827348615/513164063a66453a8f67d79082c20f2b/artifacts
+end_time: 1696154587907
+entry_point_name: ''
+experiment_id: '887014129827348615'
+lifecycle_stage: active
+run_id: 513164063a66453a8f67d79082c20f2b
+run_name: nimble-sloth-310
+run_uuid: 513164063a66453a8f67d79082c20f2b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696154587890
+status: 3
+tags: []
+user_id: ubuntu

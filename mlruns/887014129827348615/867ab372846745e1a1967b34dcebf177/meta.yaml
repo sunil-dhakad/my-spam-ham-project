@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/887014129827348615/867ab372846745e1a1967b34dcebf177/artifacts
+end_time: 1696143909006
+entry_point_name: ''
+experiment_id: '887014129827348615'
+lifecycle_stage: active
+run_id: 867ab372846745e1a1967b34dcebf177
+run_name: rare-stoat-818
+run_uuid: 867ab372846745e1a1967b34dcebf177
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696143908993
+status: 3
+tags: []
+user_id: ubuntu

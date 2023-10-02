@@ -5,7 +5,9 @@ import nltk
 from nltk.corpus import stopwords
 nltk.download('stopwords', quiet=True)
 from sklearn.model_selection import GridSearchCV
-from sklearn.metrics import r2_score,mean_squared_error
+from sklearn.metrics import accuracy_score,confusion_matrix,precision_score
+import numpy as np
+import pandas as pd
 
 def read_yalm_function(file_path:str)->dict:
     try:
@@ -40,11 +42,11 @@ def tune_and_fit(model_obj,param_grids,xtrn,xtest,ytrn,ytest):
             model_obj.fit(xtrn,ytrn)
 
             y_pred = model_obj.predict(xtest)
-            r2_score = r2_score(ytest,y_pred)
-            mse = mean_squared_error(ytest,y_pred)
-            rmse = mse**0.5 
+            accuracy_score = accuracy_score(ytest,y_pred)
+            confusion_matrix=confusion_matrix(ytest,y_pred)
+            precision_score = precision_score(ytest,y_pred)
             
-            result[list(model_obj.keys()[ith_model])] = r2_score
+            result[list(model_obj.keys()[ith_model])] = accuracy_score
             
         return result
 
@@ -52,6 +54,25 @@ def tune_and_fit(model_obj,param_grids,xtrn,xtest,ytrn,ytest):
         raise CustomException(e,sys) from e
 
 
+def save_numpy_array_data(file_path: str, array: np.array):
+   
+   
+    try:
+        dir_path = os.path.dirname(file_path)
+        os.makedirs(dir_path, exist_ok=True)
+        with open(file_path, 'wb') as file_obj:
+            np.save(file_obj, array)
+    except Exception as e:
+        raise CustomException(e, sys) from e
 
-        
+
+def load_numpy_array_data(file_path: str) -> np.array:
+    
+    try:
+        with open(file_path, 'rb') as file_obj:
+            return np.load(file_obj)
+    except Exception as e:
+        raise CustomException(e, sys) from e
+
+
 

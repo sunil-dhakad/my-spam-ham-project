@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/887014129827348615/c88a4ff7c0184ce0baff041b2cb75c16/artifacts
+end_time: 1696153451513
+entry_point_name: ''
+experiment_id: '887014129827348615'
+lifecycle_stage: active
+run_id: c88a4ff7c0184ce0baff041b2cb75c16
+run_name: intelligent-dove-29
+run_uuid: c88a4ff7c0184ce0baff041b2cb75c16
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696153451501
+status: 3
+tags: []
+user_id: ubuntu

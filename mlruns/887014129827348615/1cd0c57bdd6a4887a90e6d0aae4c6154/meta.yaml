@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/887014129827348615/1cd0c57bdd6a4887a90e6d0aae4c6154/artifacts
+end_time: 1696159981652
+entry_point_name: ''
+experiment_id: '887014129827348615'
+lifecycle_stage: active
+run_id: 1cd0c57bdd6a4887a90e6d0aae4c6154
+run_name: mysterious-sloth-867
+run_uuid: 1cd0c57bdd6a4887a90e6d0aae4c6154
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696159981636
+status: 3
+tags: []
+user_id: ubuntu

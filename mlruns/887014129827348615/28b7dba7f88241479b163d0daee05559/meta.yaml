@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/887014129827348615/28b7dba7f88241479b163d0daee05559/artifacts
+end_time: 1696159062997
+entry_point_name: ''
+experiment_id: '887014129827348615'
+lifecycle_stage: active
+run_id: 28b7dba7f88241479b163d0daee05559
+run_name: traveling-grouse-147
+run_uuid: 28b7dba7f88241479b163d0daee05559
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696159062985
+status: 3
+tags: []
+user_id: ubuntu

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/887014129827348615/ccf1b6ee9fd242b788f6c2700c468bff/artifacts
+end_time: 1696159273143
+entry_point_name: ''
+experiment_id: '887014129827348615'
+lifecycle_stage: active
+run_id: ccf1b6ee9fd242b788f6c2700c468bff
+run_name: languid-zebra-421
+run_uuid: ccf1b6ee9fd242b788f6c2700c468bff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696159273128
+status: 3
+tags: []
+user_id: ubuntu

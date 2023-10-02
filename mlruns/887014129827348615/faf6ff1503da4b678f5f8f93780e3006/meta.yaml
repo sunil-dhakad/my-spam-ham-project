@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/887014129827348615/faf6ff1503da4b678f5f8f93780e3006/artifacts
+end_time: 1696145085024
+entry_point_name: ''
+experiment_id: '887014129827348615'
+lifecycle_stage: active
+run_id: faf6ff1503da4b678f5f8f93780e3006
+run_name: learned-gnu-649
+run_uuid: faf6ff1503da4b678f5f8f93780e3006
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696145085011
+status: 3
+tags: []
+user_id: ubuntu

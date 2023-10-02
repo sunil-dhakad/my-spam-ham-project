@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/887014129827348615/f6c94f2bbced43dd941a6cb2c24ebc36/artifacts
+end_time: 1696144200861
+entry_point_name: ''
+experiment_id: '887014129827348615'
+lifecycle_stage: active
+run_id: f6c94f2bbced43dd941a6cb2c24ebc36
+run_name: bustling-horse-236
+run_uuid: f6c94f2bbced43dd941a6cb2c24ebc36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696144200848
+status: 3
+tags: []
+user_id: ubuntu

@@ -64,10 +64,10 @@ class validationclass:
             bow = CountVectorizer(max_features=3000)
             tfidf = TfidfVectorizer()
 
-            xfeatures_bow = bow.fit_transform(dff['msg'])
-            xfeatures_bow=pd.DataFrame(xfeatures_bow)
-            xfeatures_tfidf = tfidf.fit_transform(dff['msg'])
-            xfeatures_tfidf=pd.DataFrame(xfeatures_tfidf)
+            xfeatures_bow = bow.fit_transform(dff['msg'].values.ravel())
+            #xfeatures_bow=pd.DataFrame(xfeatures_bow)
+            xfeatures_tfidf = tfidf.fit_transform(dff['msg'].values.ravel())
+            #xfeatures_tfidf=pd.DataFrame(xfeatures_tfidf)
             y_target =dff['target']
             y_target=pd.DataFrame(y_target)
 

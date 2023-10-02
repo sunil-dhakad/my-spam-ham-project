@@ -18,6 +18,8 @@ from sklearn.model_selection import GridSearchCV
 import mlflow
 import mlflow.sklearn
 
+from sklearn.metrics import accuracy_score,confusion_matrix,precision_score
+
 
 
 
@@ -70,8 +72,8 @@ class Modeltrainerclass:
                         }
 
 
-                result_model_r2 = tune_and_fit(model_obj=model_obj,param_grids=param_grids,xtrain=xtrain,xtest=xtest,ytrain=ytrain,ytest=ytest)
-                best_model_willbe = max(sorted(result_model_r2.values()))
+                result_model_accuracy = tune_and_fit(model_obj=model_obj,param_grids=param_grids,xtrain=xtrain,xtest=xtest,ytrain=ytrain,ytest=ytest)
+                best_model_willbe = max(sorted(result_model_accuracy.values()))
                 best_model = list(model_obj.keys()).index(best_model_willbe)
 
                 obj_best_model = model_obj[best_model]
@@ -80,9 +82,10 @@ class Modeltrainerclass:
                 os.makedirs(self.model_trainer_config.trained_models,exist_ok=True)
                 model_path =os.path.join(self.model_trainer_config.trained_models,'model_file_name')
                 joblib.dump(obj_best_model,model_path)
+                y_pred =obj_best_model.pridect(xtest)
                 
-                r2_score = obj_best_model.predict(ytest,obj_best_model.pridect(xtest))
-                return r2_score
+                result_model_accuracy_score = obj_best_model.predict(ytest,y_pred)
+                return result_model_accuracy_score
             except Exception as e:
                 raise CustomException(e,sys) from e
     mlflow.end_run()

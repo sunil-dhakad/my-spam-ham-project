@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Desktop/my-spam-ham-project/mlruns/887014129827348615/cd372570669e40b5b1cdc396b215c166/artifacts
+end_time: 1696157031115
+entry_point_name: ''
+experiment_id: '887014129827348615'
+lifecycle_stage: active
+run_id: cd372570669e40b5b1cdc396b215c166
+run_name: selective-lynx-367
+run_uuid: cd372570669e40b5b1cdc396b215c166
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696157031080
+status: 3
+tags: []
+user_id: ubuntu
